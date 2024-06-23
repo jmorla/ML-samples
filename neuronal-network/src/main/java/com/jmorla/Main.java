@@ -18,7 +18,7 @@ public class Main {
     private static final DoubleUnaryOperator cos = (x) -> Math.cos(x);
     public static void main(String[] args) {
         NeuronalNetwork ann = NeuronalNetwork.builder()
-                .learningRate(0.0001)
+                .learningRate(0.001)
                 .addLayer(80, 1, ActivationFunction.SIGMOID)
                 .addLayer(80, 80, ActivationFunction.SIGMOID)
                 .addLayer(80, 80, ActivationFunction.SIGMOID)
