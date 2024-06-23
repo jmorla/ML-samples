@@ -1,4 +1,4 @@
-package com.jmorla;
+package com.jmorla.common;
 
 import java.util.function.DoubleUnaryOperator;
 
