@@ -1,7 +1,9 @@
-package com.jmorla;
+package org.jmorla.neuronalnetwork;
 
 import java.util.Arrays;
 import java.util.Random;
+
+import org.jmorla.common.MatrixUtils;
 
 /**
  * Represents a layer in a neural network.

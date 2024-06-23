@@ -1,8 +1,10 @@
-package com.jmorla;
+package org.jmorla.neuronalnetwork;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
+
+import org.jmorla.common.MatrixUtils;
 
 /**
  * @author Jorge L. Morla

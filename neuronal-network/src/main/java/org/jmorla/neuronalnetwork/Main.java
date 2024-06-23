@@ -1,4 +1,4 @@
-package com.jmorla;
+package org.jmorla.neuronalnetwork;
 
 import java.util.Random;
 import java.util.concurrent.Executors;
