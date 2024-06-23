@@ -88,7 +88,7 @@ public class Main {
                 chart.updateXYSeries("g(x)", xData, modelData, null);
                 callback.run();
             }
-        }, 2, TimeUnit.SECONDS);
+        }, 20, TimeUnit.SECONDS);
 
     }
 }
